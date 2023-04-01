@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/local/bin/node /opt/yarn-v1.22.19/bin/yarn.js check
+  /usr/local/bin/node /opt/yarn-v1.22.19/bin/yarn.js install
 
 PATH: 
-  /project/home/pitcher-host/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/project/home/pitcher-host/.local/state/fnm_multishells/24183_1680370037793/bin:/usr/share/fnm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+  /project/home/pitcher-host/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/project/home/pitcher-host/.local/state/fnm_multishells/1033_1680379273916/bin:/usr/share/fnm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 Yarn version: 
   1.22.19
@@ -14,19 +14,15 @@ Platform:
   linux x64
 
 Trace: 
-  SyntaxError: Invalid value type 3:0 in /project/codesandbox-template-svelte-kit/yarn.lock
-      at Parser.unexpected (/opt/yarn-v1.22.19/lib/cli.js:63491:11)
-      at Parser.parse (/opt/yarn-v1.22.19/lib/cli.js:63619:16)
-      at parse (/opt/yarn-v1.22.19/lib/cli.js:63696:21)
-      at module.exports.exports.default (/opt/yarn-v1.22.19/lib/cli.js:63258:96)
-      at Function.<anonymous> (/opt/yarn-v1.22.19/lib/cli.js:3068:63)
+  SyntaxError: /project/codesandbox-template-svelte-kit/package.json: Unexpected token a in JSON at position 1
+      at JSON.parse (<anonymous>)
+      at /opt/yarn-v1.22.19/lib/cli.js:1629:59
       at Generator.next (<anonymous>)
       at step (/opt/yarn-v1.22.19/lib/cli.js:310:30)
       at /opt/yarn-v1.22.19/lib/cli.js:321:13
 
 npm manifest: 
-  {
-  	"name": "my-app",
+  name": "my-app",
   	"version": "0.0.1",
   	"scripts": {
   		"dev": "svelte-kit dev",
