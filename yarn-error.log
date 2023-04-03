@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/local/bin/node /opt/yarn-v1.22.19/bin/yarn.js manifest:
+  /usr/local/bin/node /opt/yarn-v1.22.19/bin/yarn.js install
 
 PATH: 
-  /project/home/crisweiss85/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/project/home/crisweiss85/.local/state/fnm_multishells/1543_1680559943622/bin:/usr/share/fnm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+  /project/home/pitcher-host/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/project/home/pitcher-host/.local/state/fnm_multishells/1039_1680561271024/bin:/usr/share/fnm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 Yarn version: 
   1.22.19
@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  SyntaxError: /project/home/crisweiss85/workspace/package.json: Unexpected token a in JSON at position 1
+  SyntaxError: /project/codesandbox-template-svelte-kit/package.json: Unexpected token a in JSON at position 1
       at JSON.parse (<anonymous>)
       at /opt/yarn-v1.22.19/lib/cli.js:1629:59
       at Generator.next (<anonymous>)
