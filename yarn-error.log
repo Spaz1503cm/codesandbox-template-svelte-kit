@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/local/bin/node /opt/yarn-v1.22.19/bin/yarn.js add @metamask/sdk
+  /usr/local/bin/node /opt/yarn-v1.22.19/bin/yarn.js manifest:
 
 PATH: 
-  /project/home/crisweiss85/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/project/home/crisweiss85/.local/state/fnm_multishells/12230_1680553470475/bin:/usr/share/fnm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+  /project/home/crisweiss85/.nix-profile/bin:/nix/var/nix/profiles/default/bin:/project/home/crisweiss85/.local/state/fnm_multishells/1543_1680559943622/bin:/usr/share/fnm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 Yarn version: 
   1.22.19
