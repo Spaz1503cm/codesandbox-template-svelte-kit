@@ -1,3 +1,4 @@
+
 03:51:13 [main] Context - Creating bitcoinj 0.16.2 context.
 03:51:13 [main] WalletApplication - === starting app using flavor: prod, build type: release, network: org.bitcoin.production
 03:51:13 [main] Bluetooth - Problem determining Bluetooth MAC via official API
